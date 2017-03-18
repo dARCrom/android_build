@@ -666,27 +666,19 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
       oem_props, oem_dict, OPTIONS.info_dict))
 
   script.Print("")
-  script.Print("       || THANK YOU FOR FLASHING ||        ")
+  script.Print("     .___ _____ ___________________                         ")
+  script.Print("   __| _//  _  \\______   \_   ___ \_______  ____   _____   ")
+  script.Print("  / __ |/  /_\  \|       _/    \  \/\_  __ \/  _ \ /     \  ")
+  script.Print(" / /_/ /    |    \    |   \     \____|  | \(  <_> )  Y Y  \ ")
+  script.Print(" \____ \____|__  /____|_  /\______  /|__|   \____/|__|_|  / ")
+  script.Print("      \/       \/       \/        \/                    \/  ")
   script.Print("")
-  script.Print("DDDDDDDDDDDDD        UUUUUUUU     UUUUUUUU");
-  script.Print("D::::::::::::DDD     U::::::U     U::::::U");
-  script.Print("D:::::::::::::::DD   U::::::U     U::::::U");
-  script.Print("DDD:::::DDDDD:::::D  UU:::::U     U:::::UU");
-  script.Print("  D:::::D    D:::::D  U:::::U     U:::::U ");
-  script.Print("  D:::::D     D:::::D U:::::U     U:::::U ");
-  script.Print("  D:::::D     D:::::D U:::::U     U:::::U ");
-  script.Print("  D:::::D     D:::::D U:::::U     U:::::U ");
-  script.Print("  D:::::D     D:::::D U:::::U     U:::::U ");
-  script.Print("  D:::::D     D:::::D U:::::U     U:::::U ");
-  script.Print("  D:::::D     D:::::D U:::::U     U:::::U ");
-  script.Print("  D:::::D    D:::::D  U::::::U   U::::::U ");
-  script.Print("DDD:::::DDDDD:::::D   U:::::::UUU:::::::U ");
-  script.Print("D:::::::::::::::DD     UU:::::::::::::UU  ");
-  script.Print("D::::::::::::DDD         UU:::::::::UU    ");
-  script.Print("DDDDDDDDDDDDD              UUUUUUUUU      ");
+  script.Print("                || THANK YOU FOR FLASHING ||                ")
+  script.Print("        [ Android 7.1.1 || DirtyUnicorns Based ROM ]        ")
   script.Print("")
-  script.Print("          ||| ANDROID 7.1.1 |||           ")
+  script.Print("     - (c) 2017 dARCrom || https://github.com/dARCrom -     ")
   script.Print("")
+
 
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
