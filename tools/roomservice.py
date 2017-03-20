@@ -200,7 +200,7 @@ def add_to_manifest(repositories):
 
 def fetch_dependencies(repo_path):
     print 'Looking for dependencies'
-    dependencies_path = repo_path + '/dARCrom.dependencies'
+    dependencies_path = repo_path + '/du.dependencies'
     syncable_repos = []
 
     if os.path.exists(dependencies_path):
